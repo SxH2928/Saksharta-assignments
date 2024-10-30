@@ -5,7 +5,7 @@ Your code works nicely. Good job!
 Helpful suggestion: An alternative way to approach the `faces.py` program where you ask the user if they want to continue again and based on that you either call the main function or say 'Thank you!'.
 
 ```python
-'''while True is used to create an infinite while loop. Unless break is used, this program will keep running because True will always return True
+#while True is used to create an infinite while loop. Unless break is used, this program will keep running because True will always return True
 
 while True:
     user_input = input('Do you want to continue the program?').lower()
