@@ -1,11 +1,11 @@
 def get_file_type(filename):
     extensions = {
-        'Image': ['.jpg', '.jpeg', '.png', '.gif', '.bmp'],
-        'Document': ['.txt', '.pdf', '.doc', '.docx'],
-        'Spreadsheet': ['.xls', '.xlsx', '.csv'],
+        'Image': ['.jpg', '.jpeg', '.png' ],
+        'Document': [ '.pdf', '.doc', '.docx'],
+        'Spreadsheet': ['.xls', '.csv'],
         'Presentation': ['.ppt', '.pptx'],
         'Audio': ['.mp3', '.wav'],
-        'Video': ['.mp4', '.avi', '.mkv']
+        'Video': ['.mp4', '.mkv']
     }
     
     ext = '.' + filename.split('.')[-1].lower()
